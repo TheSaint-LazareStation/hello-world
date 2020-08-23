@@ -5,4 +5,4 @@ for i in range (1000,10000) :
         sum += pow ((m % 10), 4)
         m = m // 10
     if sum == i :
-        print ("{}".format(sum))
+        print (sum)
